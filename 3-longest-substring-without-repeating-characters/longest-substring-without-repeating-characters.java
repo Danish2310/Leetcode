@@ -10,7 +10,7 @@ class Solution {
                 // curlength=set.size();
                 // left=right;
                 set.remove(s.charAt(left));
-                // curlength--;
+                curlength--;
                 left++;
             }
             // curlength++;
