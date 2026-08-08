@@ -11,10 +11,6 @@ class Solution {
         for(int j=0;i<m&&j<n;j++){
             if(g[i]<=s[j]){
                 count++;
-               
-                // if(i+1<g.length){
-                //     i++; 
-                // }
                 i++;
             }
         }
