@@ -6,9 +6,9 @@ class Solution {
             set.add(num);
         }
         int longest=0;
-        // if(set.size()==0){
-        //     return 0;
-        // }else{
+        if(set.size()==0){
+            return 0;
+        }else{
         for(int num:set){
             if(!set.contains(num-1)){
                 int current=num;
@@ -24,4 +24,4 @@ class Solution {
 
         }
     }
-// }
+}
