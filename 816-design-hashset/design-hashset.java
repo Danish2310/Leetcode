@@ -1,7 +1,7 @@
 class MyHashSet {
-    boolean[] set;
+    boolean[] set=new boolean[10000001];
     public MyHashSet() {
-        set=new boolean[10000001];
+        Arrays.fill(set,false);
     }
     
     public void add(int key) {
