@@ -21,7 +21,7 @@ class Solution {
             for(int j=left+1;j<=n2-1;j++){
                 if(nums2[j]>nums1[i]){
                     ans[i]=nums2[j];
-                    j++;
+                    // j++;
                     break;
                 }
                 else{
